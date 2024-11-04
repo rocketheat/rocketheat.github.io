@@ -1,0 +1,34 @@
+canvas {
+  border-width: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+#image-canvas {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  display: block;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#editor {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.card {
+  padding: 2em;
+}
+
+#data-form {
+  padding: 8px;
+}
