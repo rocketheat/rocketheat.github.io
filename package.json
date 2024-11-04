@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start":"react-scripts start",
+    "start": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
-    "build": "gh-pages -d build",
+    "deploy": "gh-pages -d dist -f",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
